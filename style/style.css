@@ -1,0 +1,89 @@
+body {
+  background-color: rgb(36, 33, 33);
+}
+
+#header {
+  list-style-type: none;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-right: 10%;
+  margin-top: 3%;
+}
+#header li {
+  margin-left: 10%;
+  color: #fff;
+}
+#header li img {
+  width: 83px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#main {
+  position: relative;
+  display: flex;
+}
+#main h1 {
+  background-image: url(/image/group\ coffee.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 157px;
+  margin-top: -4%;
+  color: #fff;
+}
+#main h1 img {
+  position: absolute;
+  width: 353px;
+}
+
+#main .title {
+  height: 790px;
+}
+#main .title .btn {
+  display: flex;
+  text-align: center;
+  position: absolute;
+  justify-content: space-around;
+  width: 94%;
+  margin-top: 12%;
+}
+#main .title .btn .btn1 {
+  background: border-box;
+  color: #fff;
+  padding: 15px 30px;
+  border-color: aliceblue;
+  cursor: pointer;
+  transition: all linear 0.32s;
+}
+#main .title .btn .btn1:hover {
+  background-color: black;
+}
+#main .title .btn .btn2 {
+  background: border-box;
+  color: #fff;
+  padding: 15px 30px;
+  border-color: aliceblue;
+  transition: all linear 0.32s;
+  cursor: pointer;
+}
+#main .title .btn .btn2:hover {
+  background-color: black;
+}
+#main .icon {
+  margin: 19% 2%;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -7%;
+  width: 95%;
+}/*# sourceMappingURL=style.css.map */
